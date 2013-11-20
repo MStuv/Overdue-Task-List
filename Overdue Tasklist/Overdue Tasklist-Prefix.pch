@@ -6,6 +6,14 @@
 
 #import <Availability.h>
 
+#define TASK_NAME @"task name"
+#define TASK_DETAIL @"task detail"
+#define TASK_DATE @"task date"
+#define TASK_COMPLETION @"task completion"
+
+#define ADDED_TASK_TO_PLIST @"added task to plist"
+
+
 #ifndef __IPHONE_5_0
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif

@@ -14,13 +14,17 @@
 		C171019B1831D08800A41194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C171019A1831D08800A41194 /* main.m */; };
 		C171019F1831D08800A41194 /* MASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C171019E1831D08800A41194 /* MASAppDelegate.m */; };
 		C17101A21831D08800A41194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17101A01831D08800A41194 /* Main.storyboard */; };
-		C17101A51831D08800A41194 /* MASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17101A41831D08800A41194 /* MASViewController.m */; };
 		C17101A71831D08800A41194 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17101A61831D08800A41194 /* Images.xcassets */; };
 		C17101AE1831D08800A41194 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17101AD1831D08800A41194 /* XCTest.framework */; };
 		C17101AF1831D08800A41194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C171018E1831D08800A41194 /* Foundation.framework */; };
 		C17101B01831D08800A41194 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17101921831D08800A41194 /* UIKit.framework */; };
 		C17101B81831D08800A41194 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C17101B61831D08800A41194 /* InfoPlist.strings */; };
 		C17101BA1831D08800A41194 /* Overdue_TasklistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17101B91831D08800A41194 /* Overdue_TasklistTests.m */; };
+		C17101C71831D26B00A41194 /* MASTaskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17101C61831D26B00A41194 /* MASTaskTableViewController.m */; };
+		C17101CA1831D29000A41194 /* MASAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17101C91831D29000A41194 /* MASAddTaskViewController.m */; };
+		C17101CD1831D36E00A41194 /* MASTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17101CC1831D36E00A41194 /* MASTaskDetailViewController.m */; };
+		C17101D01831D39700A41194 /* MASEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17101CF1831D39700A41194 /* MASEditTaskViewController.m */; };
+		C17101D31831D3B500A41194 /* MASTaskObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C17101D21831D3B500A41194 /* MASTaskObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,22 @@
 		C171019D1831D08800A41194 /* MASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASAppDelegate.h; sourceTree = "<group>"; };
 		C171019E1831D08800A41194 /* MASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASAppDelegate.m; sourceTree = "<group>"; };
 		C17101A11831D08800A41194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C17101A31831D08800A41194 /* MASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewController.h; sourceTree = "<group>"; };
-		C17101A41831D08800A41194 /* MASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewController.m; sourceTree = "<group>"; };
 		C17101A61831D08800A41194 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C17101AC1831D08800A41194 /* Overdue TasklistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overdue TasklistTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17101AD1831D08800A41194 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C17101B51831D08800A41194 /* Overdue TasklistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdue TasklistTests-Info.plist"; sourceTree = "<group>"; };
 		C17101B71831D08800A41194 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C17101B91831D08800A41194 /* Overdue_TasklistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Overdue_TasklistTests.m; sourceTree = "<group>"; };
+		C17101C51831D26B00A41194 /* MASTaskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASTaskTableViewController.h; sourceTree = "<group>"; };
+		C17101C61831D26B00A41194 /* MASTaskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASTaskTableViewController.m; sourceTree = "<group>"; };
+		C17101C81831D29000A41194 /* MASAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASAddTaskViewController.h; sourceTree = "<group>"; };
+		C17101C91831D29000A41194 /* MASAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASAddTaskViewController.m; sourceTree = "<group>"; };
+		C17101CB1831D36E00A41194 /* MASTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASTaskDetailViewController.h; sourceTree = "<group>"; };
+		C17101CC1831D36E00A41194 /* MASTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASTaskDetailViewController.m; sourceTree = "<group>"; };
+		C17101CE1831D39700A41194 /* MASEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASEditTaskViewController.h; sourceTree = "<group>"; };
+		C17101CF1831D39700A41194 /* MASEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASEditTaskViewController.m; sourceTree = "<group>"; };
+		C17101D11831D3B500A41194 /* MASTaskObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASTaskObject.h; sourceTree = "<group>"; };
+		C17101D21831D3B500A41194 /* MASTaskObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASTaskObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +124,11 @@
 		C17101941831D08800A41194 /* Overdue Tasklist */ = {
 			isa = PBXGroup;
 			children = (
+				C17101C41831D23900A41194 /* Models */,
+				C17101C31831D22F00A41194 /* View Controllers */,
 				C171019D1831D08800A41194 /* MASAppDelegate.h */,
 				C171019E1831D08800A41194 /* MASAppDelegate.m */,
 				C17101A01831D08800A41194 /* Main.storyboard */,
-				C17101A31831D08800A41194 /* MASViewController.h */,
-				C17101A41831D08800A41194 /* MASViewController.m */,
 				C17101A61831D08800A41194 /* Images.xcassets */,
 				C17101951831D08800A41194 /* Supporting Files */,
 			);
@@ -150,6 +162,30 @@
 				C17101B61831D08800A41194 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C17101C31831D22F00A41194 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C17101C51831D26B00A41194 /* MASTaskTableViewController.h */,
+				C17101C61831D26B00A41194 /* MASTaskTableViewController.m */,
+				C17101C81831D29000A41194 /* MASAddTaskViewController.h */,
+				C17101C91831D29000A41194 /* MASAddTaskViewController.m */,
+				C17101CB1831D36E00A41194 /* MASTaskDetailViewController.h */,
+				C17101CC1831D36E00A41194 /* MASTaskDetailViewController.m */,
+				C17101CE1831D39700A41194 /* MASEditTaskViewController.h */,
+				C17101CF1831D39700A41194 /* MASEditTaskViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C17101C41831D23900A41194 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C17101D11831D3B500A41194 /* MASTaskObject.h */,
+				C17101D21831D3B500A41194 /* MASTaskObject.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17101A51831D08800A41194 /* MASViewController.m in Sources */,
 				C171019F1831D08800A41194 /* MASAppDelegate.m in Sources */,
+				C17101CA1831D29000A41194 /* MASAddTaskViewController.m in Sources */,
+				C17101CD1831D36E00A41194 /* MASTaskDetailViewController.m in Sources */,
+				C17101D01831D39700A41194 /* MASEditTaskViewController.m in Sources */,
+				C17101D31831D3B500A41194 /* MASTaskObject.m in Sources */,
+				C17101C71831D26B00A41194 /* MASTaskTableViewController.m in Sources */,
 				C171019B1831D08800A41194 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
