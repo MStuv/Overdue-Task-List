@@ -39,7 +39,7 @@
     /// if completion is YES...
     if (self.currentTask.completion == YES) {
         /// ...Set Button Image to Completed!
-        self.setTaskStatusImage.imageView.image = [UIImage imageNamed:@"completed.png"];
+        self.setTaskStatusImage.imageView.image = [UIImage imageNamed:@"completed_edit.png"];
         /// set label - text & color
         self.setTaskStatusLabel.text = @"Completed";
         self.setTaskStatusLabel.textColor = [UIColor colorWithRed:0.322 green:0.725 blue:0.278 alpha:1.000];
@@ -47,7 +47,7 @@
     /// else it must be NO...
     } else {
         ///... Set Button Image to grayed Complete Image
-        self.setTaskStatusImage.imageView.image = [UIImage imageNamed:@"completed_highlighted.png"];
+        self.setTaskStatusImage.imageView.image = [UIImage imageNamed:@"notCompleted_edit.png"];
         /// change taskStatus Label - text & color
         self.setTaskStatusLabel.text = @"not complete";
         self.setTaskStatusLabel.textColor = [UIColor colorWithRed:0.667 green:0.671 blue:0.671 alpha:1.000];
@@ -105,7 +105,7 @@
     if (self.currentTask.completion == NO) {
         /// ...make it YES & set Button Image to Completed!
         self.currentTask.completion = YES;
-        [self.setTaskStatusImage setImage:[UIImage imageNamed:@"completed.png"] forState:UIControlStateNormal];
+        [self.setTaskStatusImage setImage:[UIImage imageNamed:@"completed_edit.png"] forState:UIControlStateNormal];
         
         /// set label - text & color
         self.setTaskStatusLabel.text = @"Completed";
@@ -115,7 +115,7 @@
     } else {
         ///... so make it NO & set Button Image to Grayed Complete!
         self.currentTask.completion = NO;
-        [self.setTaskStatusImage setImage:[UIImage imageNamed:@"completed_highlighted.png"] forState:UIControlStateNormal];
+        [self.setTaskStatusImage setImage:[UIImage imageNamed:@"notCompleted_edit.png"] forState:UIControlStateNormal];
         
         /// set label text & color
         self.setTaskStatusLabel.text = @"not complete";

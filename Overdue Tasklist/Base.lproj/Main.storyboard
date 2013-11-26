@@ -206,10 +206,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 </connections>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owt-QW-oxM">
-                                <rect key="frame" x="164" y="73" width="34" height="47"/>
+                                <rect key="frame" x="165" y="72" width="135" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="completed_highlighted.png">
+                                <state key="normal" image="notCompleted_edit.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -495,7 +495,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         </scene>
     </scenes>
     <resources>
-        <image name="completed_highlighted.png" width="204" height="297"/>
+        <image name="notCompleted_edit.png" width="135" height="47"/>
         <image name="overdue.png" width="204" height="297"/>
         <image name="todo.png" width="204" height="297"/>
         <image name="todo_highlighted.png" width="204" height="297"/>
