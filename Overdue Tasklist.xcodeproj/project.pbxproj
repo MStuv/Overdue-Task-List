@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14955411842F946007A7F74 /* overdue_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = C149553B1842F946007A7F74 /* overdue_highlighted.png */; };
+		C14955421842F946007A7F74 /* overdue.png in Resources */ = {isa = PBXBuildFile; fileRef = C149553C1842F946007A7F74 /* overdue.png */; };
+		C14955431842F946007A7F74 /* todo_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = C149553D1842F946007A7F74 /* todo_highlighted.png */; };
+		C14955441842F946007A7F74 /* todo.png in Resources */ = {isa = PBXBuildFile; fileRef = C149553E1842F946007A7F74 /* todo.png */; };
+		C14955451842F946007A7F74 /* completed_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = C149553F1842F946007A7F74 /* completed_highlighted.png */; };
+		C14955461842F946007A7F74 /* completed.png in Resources */ = {isa = PBXBuildFile; fileRef = C14955401842F946007A7F74 /* completed.png */; };
 		C171018F1831D08800A41194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C171018E1831D08800A41194 /* Foundation.framework */; };
 		C17101911831D08800A41194 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17101901831D08800A41194 /* CoreGraphics.framework */; };
 		C17101931831D08800A41194 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17101921831D08800A41194 /* UIKit.framework */; };
@@ -38,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C149553B1842F946007A7F74 /* overdue_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overdue_highlighted.png; sourceTree = "<group>"; };
+		C149553C1842F946007A7F74 /* overdue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overdue.png; sourceTree = "<group>"; };
+		C149553D1842F946007A7F74 /* todo_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todo_highlighted.png; sourceTree = "<group>"; };
+		C149553E1842F946007A7F74 /* todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todo.png; sourceTree = "<group>"; };
+		C149553F1842F946007A7F74 /* completed_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = completed_highlighted.png; sourceTree = "<group>"; };
+		C14955401842F946007A7F74 /* completed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = completed.png; sourceTree = "<group>"; };
 		C171018B1831D08800A41194 /* Overdue Tasklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overdue Tasklist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C171018E1831D08800A41194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C17101901831D08800A41194 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +72,7 @@
 		C17101C81831D29000A41194 /* MASAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASAddTaskViewController.h; sourceTree = "<group>"; };
 		C17101C91831D29000A41194 /* MASAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASAddTaskViewController.m; sourceTree = "<group>"; };
 		C17101CB1831D36E00A41194 /* MASTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASTaskDetailViewController.h; sourceTree = "<group>"; };
-		C17101CC1831D36E00A41194 /* MASTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASTaskDetailViewController.m; sourceTree = "<group>"; };
+		C17101CC1831D36E00A41194 /* MASTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASTaskDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C17101CE1831D39700A41194 /* MASEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASEditTaskViewController.h; sourceTree = "<group>"; };
 		C17101CF1831D39700A41194 /* MASEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASEditTaskViewController.m; sourceTree = "<group>"; };
 		C17101D11831D3B500A41194 /* MASTaskObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASTaskObject.h; sourceTree = "<group>"; };
@@ -124,11 +136,11 @@
 		C17101941831D08800A41194 /* Overdue Tasklist */ = {
 			isa = PBXGroup;
 			children = (
-				C17101C41831D23900A41194 /* Models */,
-				C17101C31831D22F00A41194 /* View Controllers */,
+				C17101C41831D23900A41194 /* Model */,
+				C1EA5BA5183EF80C0028EB89 /* View */,
+				C17101C31831D22F00A41194 /* Controllers */,
 				C171019D1831D08800A41194 /* MASAppDelegate.h */,
 				C171019E1831D08800A41194 /* MASAppDelegate.m */,
-				C17101A01831D08800A41194 /* Main.storyboard */,
 				C17101A61831D08800A41194 /* Images.xcassets */,
 				C17101951831D08800A41194 /* Supporting Files */,
 			);
@@ -138,6 +150,7 @@
 		C17101951831D08800A41194 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C187D28818404ED60021EEF2 /* images */,
 				C17101961831D08800A41194 /* Overdue Tasklist-Info.plist */,
 				C17101971831D08800A41194 /* InfoPlist.strings */,
 				C171019A1831D08800A41194 /* main.m */,
@@ -164,7 +177,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C17101C31831D22F00A41194 /* View Controllers */ = {
+		C17101C31831D22F00A41194 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				C17101C51831D26B00A41194 /* MASTaskTableViewController.h */,
@@ -176,16 +189,37 @@
 				C17101CE1831D39700A41194 /* MASEditTaskViewController.h */,
 				C17101CF1831D39700A41194 /* MASEditTaskViewController.m */,
 			);
-			name = "View Controllers";
+			name = Controllers;
 			sourceTree = "<group>";
 		};
-		C17101C41831D23900A41194 /* Models */ = {
+		C17101C41831D23900A41194 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				C17101D11831D3B500A41194 /* MASTaskObject.h */,
 				C17101D21831D3B500A41194 /* MASTaskObject.m */,
 			);
-			name = Models;
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C187D28818404ED60021EEF2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C149553B1842F946007A7F74 /* overdue_highlighted.png */,
+				C149553C1842F946007A7F74 /* overdue.png */,
+				C149553D1842F946007A7F74 /* todo_highlighted.png */,
+				C149553E1842F946007A7F74 /* todo.png */,
+				C149553F1842F946007A7F74 /* completed_highlighted.png */,
+				C14955401842F946007A7F74 /* completed.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C1EA5BA5183EF80C0028EB89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C17101A01831D08800A41194 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +299,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14955461842F946007A7F74 /* completed.png in Resources */,
+				C14955411842F946007A7F74 /* overdue_highlighted.png in Resources */,
+				C14955451842F946007A7F74 /* completed_highlighted.png in Resources */,
 				C17101A71831D08800A41194 /* Images.xcassets in Resources */,
 				C17101991831D08800A41194 /* InfoPlist.strings in Resources */,
+				C14955441842F946007A7F74 /* todo.png in Resources */,
+				C14955421842F946007A7F74 /* overdue.png in Resources */,
 				C17101A21831D08800A41194 /* Main.storyboard in Resources */,
+				C14955431842F946007A7F74 /* todo_highlighted.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +541,7 @@
 				C17101BF1831D08800A41194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C17101C01831D08800A41194 /* Build configuration list for PBXNativeTarget "Overdue TasklistTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +550,7 @@
 				C17101C21831D08800A41194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

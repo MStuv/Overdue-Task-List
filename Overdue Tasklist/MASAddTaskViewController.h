@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MASTaskObject.h"
 
+/// Created Protocol for passing data back to TableViewVC
 @protocol MASAddTaskViewControllerDelegate <NSObject>
 
 -(void)didCancel;

@@ -99,6 +99,9 @@
 
 }
 
+
+#pragma mark - Helper Method
+
 -(MASTaskObject *)returnNewTaskObject
 {
     MASTaskObject *task = [[MASTaskObject alloc] init];

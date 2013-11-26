@@ -8,12 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "MASAddTaskViewController.h"
+#import "MASTaskDetailViewController.h"
 #import "MASTaskObject.h"
 
 
-/// Define statements put in the .pch file
+/// Define statements put into the .pch file
 
-@interface MASTaskTableViewController : UITableViewController <MASAddTaskViewControllerDelegate>
+/// Conform to addTaskVCDelegate, taskDetailVCDelegate & UITableViewDelegate and UITableViewDataSource
+@interface MASTaskTableViewController : UIViewController <MASAddTaskViewControllerDelegate, MASTaskDetailViewControllerDelegate, UITableViewDataSource, UITableViewDelegate>
+
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @property (strong, nonatomic) NSString *taskName;
 @property (strong, nonatomic) NSString *taskDetail;
